@@ -1,14 +1,6 @@
-Ya tienes el proyecto **nivel empresarial** completamente generado ✅
 
-***
 
-# 📦 Descargar **aspnet\_mvc\_demo6**
-
-👉 [Descargar proyecto completo](blob:https://www.microsoft365.com/8e2f2dda-9d40-4319-b6c9-8488676965e1)
-
-***
-
-# 🧠 Qué incluye esta versión (arquitectura real)
+# 🧠 Qué incluye esta versión
 
 ## ✅ Clean Architecture básica
 
