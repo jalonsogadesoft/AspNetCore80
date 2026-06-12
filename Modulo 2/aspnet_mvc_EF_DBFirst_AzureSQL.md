@@ -61,10 +61,14 @@ appsettings.json
 ## ✅ 2. Ejecuta el scaffold (PASO CLAVE)
 
 ```bash
-dotnet ef dbcontext scaffold "TU_CONNECTION_STRING" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models --force
+dotnet ef dbcontext scaffold "TU_CONNECTION_STRING" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models --context <AppDBContext> --force
 ```
 ```bash
-dotnet ef dbcontext scaffold "TU_CONNECTION_STRING" Microsoft.EntityFrameworkCore.SqlServer --table tabla1,tabla2,... --output-dir Models --force
+dotnet ef dbcontext scaffold "TU_CONNECTION_STRING" Microsoft.EntityFrameworkCore.SqlServer --table tabla1,tabla2,... --output-dir Models --context <AppDBContext> --force
+```
+
+```bash
+dotnet ef dbcontext scaffold -h
 ```
 
 👉 Esto generará automáticamente:
